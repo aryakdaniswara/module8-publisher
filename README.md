@@ -11,3 +11,6 @@ Pesan yang dikirimkan
 - The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean? </p>
 URL amqp://guest:guest@localhost:5672 yang sama digunakan di program publisher dan subscriber menunjukkan bahwa keduanya terhubung ke broker pesan AMQP yang sama.
 Dalam konteks ini, broker pesan yang digunakan adalah RabbitMQ yang berjalan di mesin lokal dengan nomor port 5672. Artinya, program publisher akan mengirim pesan ke RabbitMQ menggunakan URL tersebut, dan program subscriber akan mendengarkan dan mengambil pesan dari RabbitMQ juga menggunakan URL yang sama. Hal ini bertujuan untuk memastikan bahwa keduanya dapat berkomunikasi dengan efisien dan terintegrasi dengan broker pesan yang sama, memfasilitasi pertukaran pesan antara pengirim dan penerima dengan lancar.
+
+## Running RabbitMQ as message broker.
+![RabbitMQ](img/image_rabbit.jpg)
