@@ -14,3 +14,7 @@ Dalam konteks ini, broker pesan yang digunakan adalah RabbitMQ yang berjalan di 
 
 ## Running RabbitMQ as message broker.
 ![RabbitMQ](img/image_rabbit.jpg)
+
+## Sending and processing event.
+![alt text](img/image_event.jpg)
+Ketika program publisher berjalan, data subscriber yang sebelumnya telah dibuat akan dikirimkan ke message queue. Subscriber alam menerima data tersebut dari message queue dan menunjukkannya.
