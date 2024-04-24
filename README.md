@@ -18,3 +18,7 @@ Dalam konteks ini, broker pesan yang digunakan adalah RabbitMQ yang berjalan di 
 ## Sending and processing event.
 ![alt text](img/image_event.jpg)
 Ketika program publisher berjalan, data subscriber yang sebelumnya telah dibuat akan dikirimkan ke message queue. Subscriber alam menerima data tersebut dari message queue dan menunjukkannya.
+
+## Monitoring chart based on publisher.
+![alt text](img/image_spike.jpg)
+Ketika kita menjalankan publisher secara berulang kali, terjadi spike yang menunjukkan adanya peningkatan laju pesan. Peningkatan laju pesan ini menunjukkan adanya antrian di RabbitMQ, yang mengelola sistem message queue.
